@@ -1,0 +1,17 @@
+* {
+  margin: 20px;
+  font-family: 'Bitter', serif;
+}
+
+input {
+  background-color: #7ac143;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  border: 1px solid
+}
+
+#logo {
+  height: 80px;
+  align-items: center;
+}
