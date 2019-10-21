@@ -1,20 +1,17 @@
 class MainController < ApplicationController
   def groups
     students = [
-      'Art',
       'Yumi',
       'Stephen',
       'Joyce',
       'Benjamin',
       'Lisa',
       'Jesus',
-      'Christina',
-      'Joseph',
-      'Jose',
+      'Christi',
+      'Joe',
       'Ian',
       'Arvin',
-      'Shinu',
-      'Charlie',
+      'Kalvin',
       'Ryan'
     ]
     group1 = []
@@ -41,10 +38,5 @@ class MainController < ApplicationController
     group6 << students.delete_at(rand(students.length))
     group6 << students.delete_at(rand(students.length))
     @group6 = group6.join(', ')
-    group7 = []
-    group7 << students.delete_at(rand(students.length))
-    group7 << students.delete_at(rand(students.length))
-    group7 << students.delete_at(rand(students.length))
-    @group7 = group7.join(', ')
   end
 end
