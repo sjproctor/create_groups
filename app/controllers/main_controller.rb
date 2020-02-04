@@ -1,18 +1,26 @@
 class MainController < ApplicationController
   def groups
     students = [
-      'Yumi',
-      'Stephen',
-      'Joyce',
-      'Benjamin',
-      'Lisa',
-      'Jesus',
-      'Christi',
+      'Alejandro',
+      'Andee',
+      'Art',
+      'Austin',
+      'Chee',
+      'Connor',
+      'Cruz',
+      'Danny',
+      'Heya',
+      'Jeremy',
+      'Jonas',
       'Joe',
-      'Ian',
-      'Arvin',
-      'Kalvin',
-      'Ryan'
+      'Julia',
+      'Kevin',
+      'Liz',
+      'Meo',
+      'Richie',
+      'Rudy',
+      'Shaker',
+      'Xena'
     ]
     group1 = []
     group1 << students.delete_at(rand(students.length))
@@ -38,5 +46,21 @@ class MainController < ApplicationController
     group6 << students.delete_at(rand(students.length))
     group6 << students.delete_at(rand(students.length))
     @group6 = group6.join(', ')
+    group7 = []
+    group7 << students.delete_at(rand(students.length))
+    group7 << students.delete_at(rand(students.length))
+    @group7 = group7.join(', ')
+    group8 = []
+    group8 << students.delete_at(rand(students.length))
+    group8 << students.delete_at(rand(students.length))
+    @group8 = group8.join(', ')
+    group9 = []
+    group9 << students.delete_at(rand(students.length))
+    group9 << students.delete_at(rand(students.length))
+    @group9 = group9.join(', ')
+    group10 = []
+    group10 << students.delete_at(rand(students.length))
+    group10 << students.delete_at(rand(students.length))
+    @group10 = group10.join(', ')
   end
 end
