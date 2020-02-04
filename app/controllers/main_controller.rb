@@ -5,7 +5,6 @@ class MainController < ApplicationController
       'Andee',
       'Art',
       'Austin',
-      'Chee',
       'Connor',
       'Cruz',
       'Danny',
@@ -20,6 +19,7 @@ class MainController < ApplicationController
       'Richie',
       'Rudy',
       'Shaker',
+      'Tsz',
       'Xena'
     ]
     group1 = []
