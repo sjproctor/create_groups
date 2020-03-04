@@ -13,7 +13,6 @@ class MainController < ApplicationController
       'Jonas',
       'Joe',
       'Julia',
-      'Kevin',
       'Liz',
       'Meo',
       'Richie',
@@ -57,10 +56,7 @@ class MainController < ApplicationController
     group9 = []
     group9 << students.delete_at(rand(students.length))
     group9 << students.delete_at(rand(students.length))
+    group9 << students.delete_at(rand(students.length))
     @group9 = group9.join(', ')
-    group10 = []
-    group10 << students.delete_at(rand(students.length))
-    group10 << students.delete_at(rand(students.length))
-    @group10 = group10.join(', ')
   end
 end
